@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="html, css,cv, resume, work">
+    <meta name="description" content="Резюме начинающего web-разработчика">
+    <title>Резюме</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <img src="myFoto.jpg" alt="мое фото" class="avatar">
+            <div class="header-text">
+                <h1>Елена Лебедева</h1>
+                <p>Я начинающий web-разработчик</p>
+                <p>Изучаю основы HTML и CSS на курсе Владилена Минина</p>
+                <div class="header-social-networks">
+                    <h4>Список социальных сетей:</h4>
+                    <a href="https://t.me/leyelenaLEY" target="_blank"><img src="LogoTelegram.jpg" alt="Telegram"
+                            title="Telegram" class="logo"></a>
+                    <a href="https://vk.com/id56175096" target="_blank"><img src="LogoVK.jpg" alt="Вконтакте"
+                            title="Вконтакте" class="logo"></a>
+                    <!--
+                   <a href="https://t.me/leyelenaLEY" target="_blank">Telegram</a>
+                    <a href="https://vk.com/id56175096" target="_blank">Вконтакте </a>
+                -->
+                </div>
+            </div>
+
+        </header>
+
+        <section class="card bg-lavanderBlash">
+            <h3>Мои хобби</h3>
+            <ol class="list">
+                <li>Историческое кино </li>
+                <li>Литература </li>
+                <li>Вязание </li>
+            </ol>
+        </section>
+        <section class="card bg-lavander">
+            <h3>Опыт работы</h3>
+            <table class="table">
+                <!--<thead>
+                    <th>Название предприятия</th>
+                    <th>Должность</th>
+                    <th>Период работы</th>
+                </thead>-->
+                <tr>
+                    <td>ЗТЗ</td>
+                    <td>Программист</td>
+                    <td>1988-1989</td>
+                </tr>
+                <tr>
+                    <td>KVINT</td>
+                    <td>Программист</td>
+                    <td>1989-2010</td>
+                </tr>
+                <tr>
+                    <td>KVINT</td>
+                    <td>Руководитель ОИТ</td>
+                    <td>2011-2021</td>
+                </tr>
+                <tr>
+                    <td>KVINT</td>
+                    <td>Ведущий специалист ОИТ</td>
+                    <td>2021-сейчас</td>
+                </tr>
+                <tbody>
+
+                </tbody>
+            </table>
+
+        </section>
+        <section class="card bg-thistle">
+            <form action="/" class="form">
+                <h3>Связаться со мной</h3>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="text">Ваше имя:</label>
+                        <input type="text" id="text" placeholder="Введите имя">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Ваш email:</label>
+                        <input type="email" id="email" placeholder="Введите email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Ваше сообщение:</label>
+                    <textarea id="message" placeholder="Введите сообщение..." cols="30" rows="5"></textarea>
+                </div>
+                <button class="btn" type="submit">Отправить!</button>
+            </form>
+        </section>
+    </div>
+</body>
+
+</html>
